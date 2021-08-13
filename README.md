@@ -1,1 +1,1 @@
-# ausf-software.gihub.io
+# [View site](https://ausf-software.github.io/)
