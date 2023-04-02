@@ -25,6 +25,10 @@ nav {
 	height: 50px;
 }
 
+main {
+	min-height: calc(100vh - 150px);
+}
+
 header .site_menu {
 	background-color: #363636;
 }
@@ -48,7 +52,7 @@ header .site_menu a:hover {
 .container {
 	margin: 0 auto;
 	padding: 0 15px;
-	max-width: 1140px;
+	max-width: 1200px;
 }
 
 
@@ -76,6 +80,24 @@ footer .site_menu a:hover {
 
 .cop {
 	padding-top: 25px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970;
+	}
+}
+
+@media (max-width: 992) {
+	.container {
+		max-width: 750;
+	}
+}
+
+@media (max-width: 767) {
+	.container {
+		max-width: none;
+	}
 }
 
 @media screen and (min-width: 768px) {
