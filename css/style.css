@@ -115,5 +115,11 @@ footer .site_menu a:hover {
 		display: block;
 		text-align: left;
 	}
+	
+	footer .site_menu a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 
 }
