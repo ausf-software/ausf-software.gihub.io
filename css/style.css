@@ -33,6 +33,10 @@ header .site_menu {
 	background-color: #363636;
 }
 
+form {
+	margin-top: 20px;
+}
+
 .site_menu a {
 	color: #FFFFFF;
 	font-weight: bold;

@@ -1,6 +1,58 @@
-<html>
-	<header><title>AUSF-software Products</title></header>
-		<body>
-			<a href="https://ausf-software.github.io/product/grizzly-media-framework">Grizzly Media Framework</a>
-		</body>
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+
+		<title>AUSF-software products</title>
+
+		<link rel = "preconnect" href = "https://fonts.googleapis.com">
+		<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+		<link href = "https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel = "stylesheet">
+		
+		<link rel = "icon" href = "../favicon.ico"> <!-- 32×32 -->
+		<link rel = "icon" href = "../images/favicons/icon.svg" type = "image/svg+xml">
+		<link rel = "apple-touch-icon" href = "../images/favicons/apple.png">  <!-- 180×180 -->
+		<link rel = "manifest" href = "../manifest.webmanifest">
+
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "https://ausf-software.github.io/css/style.css">
+		<link rel = "stylesheet" type = "text/css" href = "../css/products.css">
+		
+		<meta name = "viewport" content = "width=device-width">
+		<meta name = "description" content = "Various tools for the professional sphere. I adhere to the principle that software should have free, open-source counterparts of decent quality. I develop everything alone in order to learn something new." />
+		<meta name = "keywords" content = "ausf, software, ausf software, ausf-software" />
+		<meta name = "robots" content = "index,follow" />
+		
+		<script type = "text/javascript" src = "../js/script.js"></script>
+	</head>
+
+	<body>
+
+		<header id = "header"></header>
+
+		<main>
+			<section class = "settings_section">
+				<h1 class="page-text">AUSF-software products
+				<form class = "form">
+					<label>Category:</label>
+					<select id = "select_category">
+						<option value = "0">Select from the list</option>
+					</select>
+					<input type = "button" id = "submit_button" value = "Submit">
+				</form>
+			</section>
+			
+			<section class = "product_section">
+				<div class = "container">
+					<div class = "product_section_container" id = "product_section_container">
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer id = "footer"></footer>
+		
+		<script type = "text/javascript" src = "../js/products.js"></script>
+		
+	</body>
 </html>
