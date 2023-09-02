@@ -34,6 +34,8 @@ setUpCategory();
 
 var base_product = [
 	new Product(1, "Finite state machine calculator", "fsmc_logo", "https://ausf-software.github.io/fsmc/"),
+	new Product(1, "Finite-state machine minimization calculator", "dfsmmc_logo", "https://ausf-software.github.io/dfsmmc/"),
+	new Product(1, "Hamming Code Calculator", "hcc_logo", "https://ausf-software.github.io/hcc/"),
 ];
 setProducts();
 

@@ -18,7 +18,7 @@ const news = [
 	new News ("Apr 4, 2023", "HotFix: Finite state machine calculator", "A few negative values no longer pose a threat", ""),
 	new News ("Apr 2, 2023", "Realise: Finite state machine calculator", "A finite state machine calculator from a given linear function of the form: f(x₁, x₂, ... , x₃₂) = α₁x₁ + α₂x₂ + ... + α₃₂x₃₂ + β", "")
 ];
-console.log("d");
+
 document.getElementById('n1').innerHTML = news[0].toString();
 document.getElementById('n2').innerHTML = news[1].toString();
 document.getElementById('n3').innerHTML = news[2].toString();

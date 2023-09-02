@@ -35,7 +35,7 @@ body {
 .product {
 	text-align: center;
 	width: 30%;
-	height: 430px;
+	height: 450px;
 	background-color: #C4C4C4;
 	border-radius: 40px;
 	margin-bottom: 40px;
@@ -53,6 +53,8 @@ body {
 
 .product h1 {
 	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 input {
