@@ -312,6 +312,47 @@ main {
     flex: 1;
 }
 
+.input-section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-form {
+	margin: 10px;
+	background-color: rgba(91, 39, 133, 0.4);
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+.space-div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	label {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+.list-size {
+	max-height: 1000px;
+}
+
+.answer-form {
+	display: grid;
+    grid-template-rows: auto auto 1fr;
+	font-size: 20px;
+}
+
+.textarea-size {
+	height: 500px;
+	resize: none;
+}
+
 footer {
     color: #f1f1f1;
     text-align: center;
@@ -363,4 +404,13 @@ footer {
             flex-direction: row;
         }
     }
+
+    .input-form {
+		max-width: 500px;
+		width: 500px;
+	}
+
+	.input-section {
+		flex-direction: row;
+	}
 }
