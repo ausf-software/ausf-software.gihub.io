@@ -9,83 +9,54 @@
 		<link rel = "icon" href = "images/favicons/icon.svg" type = "image/svg+xml">
 		<link rel = "apple-touch-icon" href = "images/favicons/apple.png">  <!-- 180×180 -->
 		<link rel = "manifest" href = "manifest.webmanifest">
-
-		<link rel = "preconnect" href = "https://fonts.googleapis.com">
-		<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-		<link href = "https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel = "stylesheet">
-
-		<script src = "http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		
-		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/standart-style.css">
 		<link rel = "stylesheet" type = "text/css" href = "css/main-page.css">
 		
-		<meta name = "viewport" content = "width=device-width">
-		<meta name = "description" content = "Various tools for the professional sphere. I adhere to the principle that software should have free, open-source counterparts of decent quality. I develop everything alone in order to learn something new." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name = "description" content = "" />
 		<meta name = "keywords" content = "ausf, software, ausf software, ausf-software" />
 		<meta name = "robots" content = "index,follow" />
-		
-		<script type = "text/javascript" src = "js/script.js"></script>
+
+		<script src="js/standart-script.js" defer></script>
 	</head>
 
 	<body>
-
-		<header id = "header"></header>
-
+		<header>
+			<section>
+				<nav class="navbar">
+					<div class="burger" id="burger">
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</div>
+					<div class="nav-list" id="nav-list">
+						<a href="/">Home</a>
+						<a href="/about">About</a>
+						<a href="/product">Products</a>
+						<a href="/tutorials">Tutorials</a>
+						<a href="https://github.com/ausf-software">GitHub</a>
+					</div>
+				</nav>
+			</section>
+			<section class="content-container banner">
+				<p>AUSF-software</p>
+				<h1 class="slogan">Calculations that make life easier</h1>
+				<div class="border-animate-button">
+					<a >See more about</a>
+				</div>
+			</section>
+		</header>
 		<main>
-			<section class = "hero">
-				<div class = "container">
-					<div id = "about_text" class = "about_text">
-						<h1 id = "about_company" class = "about_company">Various tools for the professional sphere <p> (quality is not guaranteed 😅)</h1>
-						<h1 id = "about_me" class = "about_me">I adhere to the principle that software should have free, open-source counterparts of decent quality. I develop everything alone in order to learn something new.</h1>
-					</div>
-
-					<div class = "tile_map" id = "tile_map">
-						<div class = "main_project" id = "main_project">
-							
-						</div>
-
-						<div class = "mini_tile" id = "mini_tile">
-							<div class = "last_update_project" id = "last_update_project">
-								
-							</div>
-
-							<div class = "most_popular_project" id = "most_popular_project">
-								
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
-
-			<section class = "news_section">
-				<div class = "container">
-					<h1 class = "news_section_title">News</h1>
-					<div class = "news_section_container">
-						<div class = "news" id = "n1">
-							<div>
-								<h3>Apr 5, 2023
-								<h1>Update: Finite state machine calculator
-							</div>
-							<div class = "text-news">
-								<p>Added the calculation of the canonical equation, and the construction of state encoding tables and input sets<br>
-							</div>
-							<div><a>Read more</a></div>
-						</div>
-
-						<div class = "news" id = "n2">
-						</div>
-
-						<div class = "news" id = "n3">
-						</div>
-					</div>
-				</div>
-			</section>
+			
 		</main>
-
-		<footer id = "footer"></footer>
-		
-		<script type = "text/javascript" src = "js/main_page.js"></script>
-		
+		<footer>
+			<div class="social-links">
+				<a href="https://habr.com/ru/users/ausf-software/" target="_blank">Habr</a>
+				<a href="https://github.com/ausf-software" target="_blank">GitHub</a>
+				<a href="https://leetcode.com/u/ausf-software/" target="_blank">LeetCode</a>
+			</div>
+		</footer>
 	</body>
 </html>
