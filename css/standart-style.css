@@ -332,6 +332,7 @@ main {
 	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
+    overflow-x: auto;
 	label {
 		font-size: 20px;
 		margin-bottom: 10px;
