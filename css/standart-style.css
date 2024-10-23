@@ -242,6 +242,32 @@ textarea {
     resize: vertical;
 }
 
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #797185;
+    border-radius: 5px;
+    background-color: #1f083a;
+    color: white;
+    font-size: 16px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    appearance: none;
+}
+
+select:focus {
+    border-color: #998aa2;
+    outline: none;
+    background-color: #e2cbef;
+    color: #100028;
+}
+
+select::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
 
 button {
     padding: 15px;
